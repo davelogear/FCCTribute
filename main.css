@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: goldenrod;
+    color: blue;
+    display: flex;
+}
+
+#nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {
+    margin: 0 5px;
+}
+
+#brand {
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
